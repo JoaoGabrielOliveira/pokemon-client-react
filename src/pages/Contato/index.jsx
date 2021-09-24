@@ -11,7 +11,7 @@ import Dina from '../Home/components/dinamic'
 
 
 
-export default class cont extends Component {
+export default class Contato extends Component {
     render() {
         return (
             <>

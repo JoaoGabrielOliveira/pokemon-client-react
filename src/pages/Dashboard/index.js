@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PokemonList from './PokemonList';
 
-import Navbar from '../../component/NavBar';
+import Navbar from '../../components/NavBar';
 
 import API from '../../service/API';
 
