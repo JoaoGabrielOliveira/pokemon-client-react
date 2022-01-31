@@ -2,11 +2,8 @@ import React from 'react';
 
 
 export default prop =>
-<div style={{backgroundColor:"#E0FFFF",display:"flex",fontSize:"17px"}}>
-    <p style={{paddingLeft:"20px"}}>© Pokemon 2020 - NETWORK S.A, TODOS OS DIREITOS RESERVADOS.
-        <br></br> Termos de Privacidade</p>
-
-    <p style={{paddingLeft:"70pc"}}><a style={{color:"black",textDecoration:"none"}}href="/Contato">Contato</a></p>
-    
-  
-</div>
+<footer style={{backgroundColor:"#E0FFFF", fontSize:"17px", display:'flex', justifyContent:'space-around'}}>
+    <span >© Pokemon 2020 - NETWORK S.A, TODOS OS DIREITOS RESERVADOS.</span>
+    <span >Termos de Privacidade</span>
+    <span ><a href="/Contato">Contato</a></span>
+</footer>
