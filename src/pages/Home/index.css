@@ -2,49 +2,41 @@
     overflow:none;
 }
 #topo1{
-    padding: 100px;
+    padding: 9%;
     background-color: rgba(247, 234, 112, 0.575);
 }
 
 .titulo{
-    margin-top: -90px;
     font-family: fantasy;
-    float: right;
     font-size: 50px;
-    margin-right:30% ;
-
 }
 .btn{
     font-family: fantasy;
-    margin-left: 50%;
     font-size: 20px;
-    padding-bottom: 20px;
     font-style: none;
+    transition: 50ms;
 }
-.btn :hover{
-    border: solid 2px rgba(216, 95, 14, 0.048);
+.btn:hover{
+    border: solid 2px rgba(216, 95, 14, 0.4);
     border-radius: 10px;
     background-color: rgb(255, 145, 0);
     color: white;
-    padding: 10px;
-    
 }
-.img{
-    margin-left: 400px;
-}
+
 .text{
-    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
     padding-top: 80px;
-    text-align: center;
     padding-bottom: 50px;
+    text-align: justify;
+    line-height: 150%;
 }
-
-
 
 #topo2{
   padding: 100px;
-  background-color: rgb(243, 155, 155)   ;
+  background-color: rgb(243, 155, 155);
 }
+
 .poke{
     border: 2px solid rgb(216, 19, 19);
     background-color: white;
