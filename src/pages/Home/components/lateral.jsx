@@ -28,14 +28,7 @@ export default props =>
        <PokedexSection/>
     </div>
 
-    <div className="New">
-        <div className="TN">
-            <strong>News</strong>
-              <p style={{fontSize:"20px"}}> Todas as informações irão te direcionar ao site.</p>
-        </div>
-
-        <NewsSection/>
-    </div>
+    <NewsSection />
 
     <div>
         <Footer/>
