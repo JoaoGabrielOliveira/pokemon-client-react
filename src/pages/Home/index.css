@@ -32,54 +32,35 @@
     line-height: 150%;
 }
 
-#topo2{
-  padding: 100px;
-  background-color: rgb(243, 155, 155);
-}
-
-.poke{
+section#pokedex{
     border: 2px solid rgb(216, 19, 19);
     background-color: white;
-    padding: 200px;
-    
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 40% 50%;   
+    column-gap: 10%;
 }
-.img2{
- 
-    margin-left: -50px;
-    margin-top: -120px;
-    
-  
-}
-.tekst{
-    font-size: 23px;
- margin-left:  50%;
- margin-top: -38%;
 
-
+section#pokedex img {
+    width: 100%;
+    height: auto;
 }
-.titu{
+
+section#pokedex h2{
     text-align: center;
-    font-size: 40px;
-    align-items: center;
-  padding-left: 130px;
-    
+    font-size: 200%;
+    margin-bottom: 10%;
 }
 
-.btn1 .btn{
+section#pokedex .btn{
+    float: right;
     font-family: fantasy;
-    margin-left: 70%;
     font-size: 20px;
-    padding: 30px;
-    padding-bottom: 20px;
-    font-style: none;
 }
-.btn1 .btn :hover{
-    border: solid 3px rgba(47, 47, 48, 0.055);
-    border-radius: 10px;
+section#pokedex .btn:hover{
+    border: solid 3px rgba(47, 47, 48, 0.55);
     background-color: rgb(230, 139, 139);
     color: white;
-    padding: 10px;
-    
 }
 
 .New{
