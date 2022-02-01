@@ -2,7 +2,7 @@ import React from 'react'
 
 import PokedexSection from './PokedexSection';
 import New from './news';
-import Dic from './dinamic'
+import Footer from './Footer'
 
 
 
@@ -37,8 +37,8 @@ export default props =>
         <New/>
     </div>
 
-    <div className="dic">
-        <Dic/>
+    <div>
+        <Footer/>
     </div>
 
 </div>
