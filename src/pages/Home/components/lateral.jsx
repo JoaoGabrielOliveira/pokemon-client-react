@@ -1,6 +1,6 @@
 import React from 'react' 
 
-import Poke from './letra';
+import PokedexSection from './PokedexSection';
 import New from './news';
 import Dic from './dinamic'
 
@@ -24,8 +24,8 @@ export default props =>
         </div> 
     </div>
 
-    <div id="topo2">
-       <Poke/>
+    <div style={{padding: "5%", backgroundColor: "rgb(243, 155, 155)"}}>
+       <PokedexSection/>
     </div>
 
     <div className="New">
