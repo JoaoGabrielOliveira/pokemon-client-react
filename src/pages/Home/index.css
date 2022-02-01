@@ -66,60 +66,62 @@ section#pokedex .btn:hover{
 }
 
 /*NewsSection*/
-.New{
-    padding: 100px;
+#newsSection{
+    padding: 6%;
 }
-.Game{
-    display: flex;
-    flex-direction: column;
-    flex: 50;
-    margin: 20px;
-    border: 3px rgb(92, 107, 241) solid;
-    border-radius: 10px;
-    overflow: none;  
-    background-color: rgb(255, 255, 255);
-    
-}
-.CardN{
-    display: flex;
-    flex-direction: column;
-    flex: 50;
-    margin: 20px;
-    border: 3px rgb(248, 51, 16) solid;
-    border-radius: 10px;
-    overflow: none;  
-    background-color: rgb(255, 255, 255);
 
-}
- .conteu{
-    flex: 1;
-    padding: 15px ;
-    
-    color: rgb(12, 11, 11);   
-    font-size: 20px;
+#newsSection header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
 
+    justify-content: center;
+    align-items: center;
 }
- .TiT{
-    flex: 50;
-    margin: 0px;
-    border: 3px rgba(209, 177, 177, 0) solid;
-    border-radius: 1px;
-    overflow: hidden;  
-    background-color: rgb(124, 143, 226);
-    font-size: 21px;
-    
-}
-img{
-    border-radius: 10px;
-}
-.button{
-    font-size: 20px;
+
+#newsSection header.title{
+    padding: 20px;
+    font-family: monospace;
     text-align: center;
-    font-family:fantasy;
-    color: black;
-    overflow:none;
-    text-decoration: none;
 }
+
+.newsCard{
+    display: flex;
+    flex-flow: column nowrap;
+    overflow: none;
+    
+    border: 2px rgb(248, 51, 16) solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+
+    margin: 0 5%;
+}
+
+.newsCard > * {
+    width: 100%;
+}
+
+.newsCard > div {
+    margin-bottom: 4%;
+    padding: 1% 4%;
+}
+
+.newsCard .title{
+    font-size: 100%;
+    text-align: left;
+
+    padding: 0.5%;
+
+    border: 3px rgba(209, 177, 177, 0) solid;
+    background-color: rgb(124, 143, 226);
+}
+
+.newsCard .description{
+    text-align: justify;
+    text-indent: 15%;
+    font-size: 90%;
+}
+
 button{
     border-radius: 9px;
     padding: 9px;
@@ -128,10 +130,4 @@ button{
     color: white;
 
     box-shadow: rgba(82, 90, 90, 0.233) 0px 0px 20px;
-}
-.TN{
-    font-size: 50px;
-    padding: 20px;
-    font-family: monospace;
-    text-align: center;
 }

@@ -4,13 +4,14 @@ import CarouselNews from './CarouselNews';
 
 export default () => {
 
-  return (<div className="New">
-        <div className="TN">
-            <strong>News</strong>
-              <p style={{fontSize:"20px"}}> Todas as informações irão te direcionar ao site.</p>
-        </div>
+  return (
+  <div id="newsSection">
+    <header className="title">
+      <h2 style={{fontSize:"100%"}}><strong>News</strong></h2>
+      <p  style={{fontSize:"50%", letterSpacing:'1px'}}> Todas as informações irão te direcionar ao site.</p>
+    </header>
 
-        <CarouselNews />
-    </div>
+    <CarouselNews />
+  </div>
   );
 };
