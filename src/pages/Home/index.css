@@ -1,22 +1,14 @@
 .App{
     overflow:none;
 }
-/* HistorySection */
-#topo1{
-    padding: 9%;
-    background-color: rgba(247, 234, 112, 0.575);
-}
 
-.titulo{
-    font-family: fantasy;
-    font-size: 50px;
-}
 .btn{
     font-family: fantasy;
     font-size: 20px;
     font-style: none;
     transition: 50ms;
 }
+
 .btn:hover{
     border: solid 2px rgba(216, 95, 14, 0.4);
     border-radius: 10px;
@@ -24,11 +16,35 @@
     color: white;
 }
 
-.text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 170%;
-    padding-top: 80px;
-    padding-bottom: 50px;
+/* HistorySection */
+#historySection{
+    padding: 5%;
+    background-color: #FFFF66;
+}
+
+#historySection section {
+    padding: 3%;
+    background-color:#FFF4B499;
+    border: 2px solid #CCCC00;
+    display: flex;
+}
+
+#historySection section article {
+    display: grid;
+    grid-template-rows: 30% 40% 10%;   
+    column-gap: 10%;
+
+    margin: 0 5%;
+}
+
+#historySection section .title{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+
+#historySection section .text{
     text-align: justify;
     line-height: 150%;
 }
@@ -55,7 +71,6 @@ section#pokedex h2{
 }
 
 section#pokedex .btn{
-    float: right;
     font-family: fantasy;
     font-size: 20px;
 }
