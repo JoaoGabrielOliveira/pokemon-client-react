@@ -1,6 +1,7 @@
 .App{
     overflow:none;
 }
+/* HistorySection */
 #topo1{
     padding: 9%;
     background-color: rgba(247, 234, 112, 0.575);
@@ -32,6 +33,7 @@
     line-height: 150%;
 }
 
+/* PokedexSection */
 section#pokedex{
     border: 2px solid rgb(216, 19, 19);
     background-color: white;
@@ -63,6 +65,7 @@ section#pokedex .btn:hover{
     color: white;
 }
 
+/*NewsSection*/
 .New{
     padding: 100px;
 }
@@ -107,9 +110,7 @@ section#pokedex .btn:hover{
     
 }
 img{
-    
     border-radius: 10px;
-    
 }
 .button{
     font-size: 20px;
