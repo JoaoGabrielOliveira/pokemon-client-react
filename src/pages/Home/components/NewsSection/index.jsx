@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ItemsCarousel from 'react-items-carousel';
-import News from './NewsSection/News';
+import News from './News';
 
 
 export default () => {

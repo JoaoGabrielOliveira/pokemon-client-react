@@ -1,7 +1,7 @@
 import React from 'react' 
 
 import PokedexSection from './PokedexSection';
-import New from './news';
+import NewsSection from './NewsSection';
 import Footer from './Footer'
 
 
@@ -34,7 +34,7 @@ export default props =>
               <p style={{fontSize:"20px"}}> Todas as informações irão te direcionar ao site.</p>
         </div>
 
-        <New/>
+        <NewsSection/>
     </div>
 
     <div>
