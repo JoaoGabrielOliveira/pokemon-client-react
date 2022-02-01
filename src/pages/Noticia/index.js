@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NavBar from '../../component/NavBar';
+import NavBar from '../../components/NavBar';
 import Layout from './Layout';
 import Dina from '../Home/components/dinamic'
 

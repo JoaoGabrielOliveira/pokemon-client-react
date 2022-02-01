@@ -3,7 +3,7 @@ import React from 'react'
 import API from '../../service/API'
 
 import Info from './Info'
-import NavBar from '../../component/NavBar'
+import NavBar from '../../components/NavBar'
 
 export default class Pokemon extends React.Component
 {

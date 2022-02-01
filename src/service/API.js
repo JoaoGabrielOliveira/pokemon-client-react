@@ -1,10 +1,11 @@
 import Axios from 'axios';
+import environment from '../config/environment';
 
 export default class API {
     
-    static URL = `http://localhost:3001/api/v1`;
+    static URL = environment.API;
 
-    static NewsURL = `http://newsapi.org/v2/everything?q=pokemon&language=pt`;
+    static NewsURL = environment.APINews;
 
     static Pokemons;
 

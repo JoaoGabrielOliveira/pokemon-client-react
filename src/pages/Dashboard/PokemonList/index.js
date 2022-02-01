@@ -1,11 +1,11 @@
 import React, { Component, Fragment, useEffect, useState } from 'react';
 
-import PokemonCard from '../../component/pokemonCard/PokemonCard';
-import Chip from '../../component/chip';
+import PokemonCard from '../../../components/pokemonCard';
+import Chip from '../../../components/chip';
 import './PokemonList.css';
 
 
-import API from '../../service/API';
+import API from '../../../service/API';
 
 export default class PokemonList extends Component {
 
