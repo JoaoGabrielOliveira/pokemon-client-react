@@ -2,7 +2,7 @@ import React from 'react';
 
 import NavBar from '../../components/NavBar';
 import Layout from './Layout';
-import Dina from '../Home/components/dinamic'
+import Dina from '../Home/components/Footer'
 
 import './index.css';
 

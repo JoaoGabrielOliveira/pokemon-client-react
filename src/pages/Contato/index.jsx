@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './cont.css'
 import swal from 'sweetalert';
 import Menu from './menuCont';
-import Dina from '../Home/components/dinamic'
+import Dina from '../Home/components/Footer'
 
 
 
